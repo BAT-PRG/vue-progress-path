@@ -6,6 +6,7 @@
 		<svg
 			:width="finalWidth"
 			:height="finalHeight"
+			preserveAspectRatio="none"
 			:viewBox="`0 0 ${finalWidth} ${finalHeight}`">
 			<g :transform="`translate(${(finalWidth - size) / 2}, ${(finalHeight - size) / 2}) rotate(${finalRotation}, ${size / 2}, ${size / 2})`">
 				<g class="container">
